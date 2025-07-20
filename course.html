@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    <head>
+   <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>RAAHI MAKEOVERS</title>
@@ -22,10 +22,94 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
+    
+
+     <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #C28800;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .section p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      color: #555;
+    }
+
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .course-card {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .course-card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #F8C019;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .duration {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+
+    .course-card p {
+      font-size: 14px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #F8C019;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #d6a600;
+    }
+
+    @media (max-width: 600px) {
+      .section h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
     <body>
      <!-- header -->
-        
-        <!-- header-end -->
                 <header class="header-area">  
 			
             <div id="header-sticky" class="menu-area">
@@ -72,38 +156,25 @@
                 </div>
             </div>
         </header>
+        <!-- header-end -->
+        
         <!-- main-area -->
         <main>
-            
-            <!-- search-popup -->
-		<div class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
-			<div class="modal-dialog modal-lg" role="document">
-				<div class="modal-content search-popup">
-					<div class="text-center">
-						<a href="#" class="close2" data-dismiss="modal" aria-label="Close">× close</a>
-					</div>
-					<div class="row search-outer">
-						<div class="col-md-11"><input type="text" placeholder="Search for products..." /></div>
-						<div class="col-md-1 text-right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /search-popup -->
+         
             <!-- breadcrumb-area -->
-             <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(./images/s/3.png)">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(./images/s/2.png)">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
                             <div class="breadcrumb-wrap text-left">
                                 <div class="breadcrumb-title">
-                                    <h2>Portfolio</h2>    
+                                    <h2>Course</h2>    
                                     <div class="breadcrumb-wrap">
                               
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">portfolio</li>
+                                        <li class="breadcrumb-item active" aria-current="page">About</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -115,118 +186,90 @@
                 </div>
             </section>
             <!-- breadcrumb-area-end -->
-			  <!-- gallery-area -->
-             <section id="portfolio" class="pt-120 pb-90" style="background: #222;">
-                <div class="container">                  
-					<div class="portfolio ">
-                        <div class="row align-items-center mb-50">
-                            <div class="col-lg-5">
-                                 <div class="section-title wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s">
-                                 <h5>portfolio</h5>
-                                <h2>
-                                 creative works
-                                </h2>
-                             
-                            </div>
-                                
-                            </div>
-                            <div class="col-lg-7">
-                                 <div class="my-masonry text-right wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">
-                            <div class="button-group filter-button-group ">
-                                <button class="active" data-filter="*">all works</button>
-								 <button data-filter=".financial">Face Makeup</button>
-								<button data-filter=".banking">Eye Makeup</button>	
-                                
-								<button data-filter=".insurance">Hair Makeup</button>
-								<button data-filter=".family">Bridal Makeup</button>
-							</div>
-                        </div>
-                            </div>
-                        </div>
-                      
-
-                <div class="grid col3 wow fadeInUp  animated" data-animation="fadeInUp" data-delay=".4s">
-				   			 <div class="grid-item financial">
-                        	<a class="popup-image" href="./images/gallery/1.png">
-                            <figure class="gallery-image">
-                              <img src="./images/gallery/1.png" alt="img" class="img">      
-                               
-                            </figure>
-                          </a>
-                    </div>
-					<div class="grid-item financial banking">
-                       <a class="popup-image" href="./images/gallery/2.png">
-                            <figure class="gallery-image">
-                             <img src="./images/gallery/2.png" alt="img" class="img"> 
-                            </figure>
-                          </a>
-                    </div>
-                     <div class="grid-item insurance">
-                        	<a class="popup-image" href="./images/gallery/3.png">
-                            <figure class="gallery-image">
-                               <img src="./images/gallery/3.png" alt="img" class="img">      
-                            </figure>
-                          </a>
-                    </div>
-                     <div class="grid-item family">
-                        	<a class="popup-image" href="./images/gallery/4.png">
-                            <figure class="gallery-image">
-                                <img src="./images/gallery/4.png" alt="img" class="img">
-                            </figure>
-                          </a>
-                    </div>
-                    <div class="grid-item business">
-                        <a class="popup-image" href="./images/gallery/5.png">
-                            <figure class="gallery-image">
-                                <img src="./images/gallery/5.png" alt="img" class="img">   
-                            </figure>
-                          </a>
-                    </div>
-                     <div class="grid-item financial">
-                        	<a class="popup-image" href="./images/gallery/6.png">
-                            <figure class="gallery-image">
-                             <img src="./images/gallery/6.png" alt="img" class="img">    
-                            </figure>
-                          </a>
-                    </div>
-            </div>
-
-        </div>
-                </div>
-            </section>
-            <!-- gallery-area-end -->
             
-         <!-- newslater-area -->
-            <section class="newslater-area pt-95 pb-100" style="background:#cc866c;" >
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-8">
-                            <div class="section-title">
-                                <h2>Get Update By Signup Our Newsletter</h2>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-4">
-                            <form name="ajax-form"  action="#" method="post" class="contact-form newslater p-relative">
-                               <div class="form-group">
-                                  <input class="form-control" id="email2" name="email" type="email" placeholder="Email Address..." value="" required=""> 
-                                  <button type="submit" class="btn btn-custom" id="send2">Join Now</button>
-                               </div>
-                               <!-- /Form-email -->	
-                            </form>
-                        </div>
-                    </div>
-                   
-                </div>
-            </section>
-            <!-- newslater-aread-end -->
+ 
+ <!-- Advance Courses -->
+  <section class="section">
+    <h1 style="color: #C28800;">Advance Makeup Courses</h1>
+    <p>With regards to Bridal Makeup, Raahi Makeovers assumes full liability. She works intimately with every one of her ladies and works fastidiously to make them the most shocking ladies ever. He customizes the whole cycle and considers the lady’s desire and proposal while doing her cosmetics and haircut. You can likewise rely on Him for your pre-wedding and post-wedding services.
+
+Our master marriage cosmetics bundles incorporate Free Lashes, Hair do, are accessible in Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad. We are likewise furnishing doorstep Bridal Makeup administrations with moderate marriage cosmetics bundles to ensure that you get the Best Bridal Makeup in Delhi NCR..</p>
+    
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>Private Pro Basic to Advance Makeup Course</h3>
+        <div class="price">₹37,500</div>
+        <div class="duration">2 Months | Includes Airbrush + 2 Portfolio Shoot</div>
+        <p>Includes product knowledge, eye shapes, glitter, smokey, fantasy makeup, HD contouring, and more...</p>
+        <button class="btn">Book Now</button>
+      </div>
+
+      <div class="course-card">
+        <h3>Basic to Bridal Makeup Course</h3>
+        <div class="price">₹25,000</div>
+        <div class="duration">1 Month | 1 Portfolio Shoot</div>
+        <p>Full base, eye makeup, color theory, foundation basics, HD contouring, and more bridal-focused training.</p>
+        <button class="btn">Book Now</button>
+      </div>
+
+      <div class="course-card">
+        <h3>Weekend Makeup Course – Basic to Advance</h3>
+        <div class="price">₹15,000</div>
+        <div class="duration">Weekend Batches</div>
+        <p>Weekend classes with bridal makeup, foundation, eye techniques, glitter cut crease, fantasy, and HD base.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Basic Courses -->
+  <section class="section" style="background: #eee;">
+    <h1 style="color: #C28800;">Basic Makeup Courses</h1>
+    <p>With regards to Bridal Makeup, Raahi Makeovers assumes full liability. She works intimately with every one of her ladies and works fastidiously to make them the most shocking ladies ever. He customizes the whole cycle and considers the lady’s desire and proposal while doing her cosmetics and haircut. You can likewise rely on Him for your pre-wedding and post-wedding services.
+
+Our master marriage cosmetics bundles incorporate Free Lashes, Hair do, are accessible in Delhi, Gurgaon, Noida, Faridabad, and Ghaziabad. We are likewise furnishing doorstep Bridal Makeup administrations with moderate marriage cosmetics bundles to ensure that you get the Best Bridal Makeup in Delhi NCR.</p>
+    
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>Airbrush Makeup Course</h3>
+        <div class="price">₹12,500</div>
+        <div class="duration">1 Week | Hands-on Practice</div>
+        <p>Learn airbrush technique, HD blending, base foundation spray, and machine knowledge.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card">
+        <h3>Self Grooming Course (1 week)</h3>
+        <div class="price">₹7,500</div>
+        <div class="duration">1 Week | Hands-on Practice</div>
+        <p>Basic grooming, party makeup, contour, daily makeup, and eye makeup for self-use.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card">
+        <h3>Self Grooming Course (2 week)</h3>
+        <div class="price">₹7,500</div>
+        <div class="duration">2 Weeks | Hands-on Practice</div>
+        <p>More advanced self-grooming with practical usage of blush, contouring, and party-ready looks.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+
+      <div class="course-card">
+        <h3>Hair Styling Course</h3>
+        <div class="price">₹10,000</div>
+        <div class="duration">10 Days | Hands-on Practice</div>
+        <p>Bridal hair buns, curls, tong setting, high fashion styles, and engagement hair looks.</p>
+        <button class="btn">Enroll Now</button>
+      </div>
+    </div>
+  </section>
              
              
             
         </main>
         <!-- main-area-end -->
    
-        <!-- footer -->
-         <footer class="footer-bg footer-p" style="background: #131819;">
+               <footer class="footer-bg footer-p" style="background: #131819;">
             <div class="footer-top  pt-70  pb-40">
                 <div class="container">
                     <div class="row justify-content-between">
@@ -335,7 +378,8 @@
                 </div>
             </div>
         </footer>
-        <!-- footer-end -->
+
+
 		<!-- JS here -->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
